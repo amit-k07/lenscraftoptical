@@ -545,7 +545,7 @@ footer {
         display: none;
         flex-direction: column;
         width: 100%;
-        background: #851c1c;
+        background: #0A2540;
         position: absolute;
         top: 100%;
         left: 0;
@@ -698,4 +698,5 @@ z-index:999;
 .call-float:hover{
 background:#C9A227;
 color:black;
+
 }
