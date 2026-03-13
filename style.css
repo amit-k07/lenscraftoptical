@@ -226,7 +226,7 @@ section {
 }
 .service-box {
     display: inline-block;
-    width: 250px;
+    width: 300px;
     margin: 15px;
     padding: 20px;
 
@@ -1016,4 +1016,5 @@ transform:translateY(-130px);
 opacity:1;
 pointer-events:auto;
 }
+
 
