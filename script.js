@@ -87,3 +87,10 @@ menuToggle.addEventListener("click", function () {
 
 window.addEventListener("scroll", reveal);
 
+const socialToggle = document.getElementById("socialToggle");
+const socialContainer = document.querySelector(".social-container");
+
+socialToggle.addEventListener("click", () => {
+socialContainer.classList.toggle("active");
+});
+
