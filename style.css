@@ -948,3 +948,35 @@ font-size:18px;
 opacity:0.9;
 
 }
+
+.insta-float{
+position:fixed;
+bottom:160px;
+right:20px;
+
+width:55px;
+height:55px;
+
+background:linear-gradient(45deg,#f58529,#dd2a7b,#8134af,#515bd4);
+display:flex;
+align-items:center;
+justify-content:center;
+
+border-radius:50%;
+text-decoration:none;
+
+box-shadow:0 8px 20px rgba(0,0,0,0.3);
+z-index:999;
+
+transition:0.3s;
+}
+
+.insta-float img{
+width:57px;
+height:58px;
+}
+
+.insta-float:hover{
+transform:scale(1.1);
+box-shadow:0 10px 25px rgba(0,0,0,0.4);
+}
