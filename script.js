@@ -84,3 +84,4 @@ const navbar = document.getElementById("navbar");
 menuToggle.addEventListener("click", function () {
     navbar.classList.toggle("active");
 });
+window.addEventListener("scroll", reveal);
