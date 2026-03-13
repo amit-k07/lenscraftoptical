@@ -76,7 +76,11 @@ let elementTop=reveals[i].getBoundingClientRect().top;
 if(elementTop<windowHeight-100){
 reveals[i].classList.add("active");
 }
-
 }
-
 }
+const menuToggle = document.getElementById("menuToggle");
+const navbar = document.getElementById("navbar");
+
+menuToggle.addEventListener("click", function () {
+    navbar.classList.toggle("active");
+});
